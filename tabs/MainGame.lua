@@ -4,7 +4,7 @@
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This program is the start of the game(MainGame)
+-- This scene is the start of the game(MainGame)
 
 MainGame = class()
 

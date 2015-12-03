@@ -23,6 +23,7 @@ function setup()
     Scene("MGame", MainGame)
     Scene("Store", Store)
     Scene("WSelect", WorldSelect)
+    Scene("Ice", Iceberg)
     Scene("Setting", Settings)
     Scene("Credits", Credits)
     

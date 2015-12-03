@@ -10,9 +10,10 @@
 		<string>CompanyLogo</string>
 		<string>GameLogo</string>
 		<string>MainScene</string>
-		<string>MainGame</string>
 		<string>Store</string>
+		<string>MainGame</string>
 		<string>WorldSelect</string>
+		<string>Iceberg</string>
 		<string>Settings</string>
 		<string>Credits</string>
 		<string>HelperClass</string>

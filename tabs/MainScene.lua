@@ -4,7 +4,7 @@
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This program displays multiple buttons to change to different scenes
+-- This scene displays multiple buttons to change to different scenes
 
 MainScene = class()
 

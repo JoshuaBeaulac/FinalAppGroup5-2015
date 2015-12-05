@@ -15,7 +15,7 @@ end
 
 function Iceberg:draw()
     -- Codea does not automatically call this method
-    background(0, 107, 255, 255)
+    sprite("Dropbox:gorup52", 512, 384, 1024, 768)
     
     --sprite("Dropbox:Yellow Back Circle Button")
     moveBackSelect = Button("Dropbox:Yellow Back Circle Button", vec2(100, 100))

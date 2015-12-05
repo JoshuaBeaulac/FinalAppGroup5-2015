@@ -34,9 +34,4 @@ end
 function GameLogo:touched(touch)
     -- Codea does not automatically call this method
     
-    moveForwardButton:touched(touch)
-    
-    if(moveForwardButton.selected == true) then
-        Scene.Change("MScene")
-    end
 end

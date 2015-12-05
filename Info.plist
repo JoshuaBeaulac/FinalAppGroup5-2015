@@ -14,6 +14,10 @@
 		<string>MainGame</string>
 		<string>WorldSelect</string>
 		<string>Iceberg</string>
+		<string>CandyLand</string>
+		<string>Stormy</string>
+		<string>Peachy</string>
+		<string>Stargaze</string>
 		<string>Settings</string>
 		<string>Credits</string>
 		<string>HelperClass</string>

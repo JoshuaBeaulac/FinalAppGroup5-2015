@@ -11,6 +11,7 @@ Settings = class()
 function Settings:init(x)
     -- you can accept and set parameters here
     local moveCredits
+    local moveBackMainS
 end
 
 function Settings:draw()

@@ -4,13 +4,13 @@
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This scene displays multiple buttons to change to different scenes
+-- This scene is where you can select witch level you want to play on CandyLand
 
 CandyLand = class()
 
 function CandyLand:init(x)
     -- you can accept and set parameters here
-    self.x = x
+    local moveBackSelect
 end
 
 function CandyLand:draw()

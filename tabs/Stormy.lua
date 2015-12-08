@@ -4,7 +4,7 @@
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This scene displays all levels for Stormy
+-- This scene is where you can select witch level you want to play on Stormy
 
 Stormy = class()
 

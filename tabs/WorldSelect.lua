@@ -11,6 +11,10 @@ WorldSelect = class()
 function WorldSelect:init(x)
     -- you can accept and set parameters here
     local moveIceberg
+    local moveCandyland
+    local moveStormy
+    local movePeachy
+    local moveStargaze
     local sky
     local moveBackMGame
 end

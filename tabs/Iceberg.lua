@@ -1,4 +1,4 @@
--- WorldOne
+-- Iceberg
 -- FinalAppGroup5-2015
 
 -- Created by: Justin Bronson
@@ -15,10 +15,10 @@ end
 
 function Iceberg:draw()
     -- Codea does not automatically call this method
-    sprite("Dropbox:gorup52", 512, 384, 1024, 768)
+    sprite("Dropbox:iceberg", 512, 384, 1024, 768)
     
-    --sprite("Dropbox:Yellow Back Circle Button")
-    moveBackSelect = Button("Dropbox:Yellow Back Circle Button", vec2(100, 100))
+    --sprite("Dropbox:Teal Back Circle Button")
+    moveBackSelect = Button("Dropbox:Teal Back Circle Button", vec2(100, 100))
     
     moveBackSelect:draw()
 end

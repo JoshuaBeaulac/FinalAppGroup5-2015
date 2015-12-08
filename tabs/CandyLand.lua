@@ -15,8 +15,18 @@ end
 
 function CandyLand:draw()
     -- Codea does not automatically call this method
+    
+    --sprite("Dropbox:Red Back Circle Button")
+    moveBackSelect = Button("Dropbox:Red Back Circle Button", vec2(100, 100))
+    
+    moveBackSelect:draw() 
 end
 
 function CandyLand:touched(touch)
     -- Codea does not automatically call this method
+    moveBackSelect:touched(touch)
+    
+    if(moveBackSelect.selected == true) then
+        Scene.Change("WSelect")
+    end
 end

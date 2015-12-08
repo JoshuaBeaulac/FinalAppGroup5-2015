@@ -52,4 +52,3 @@ function touched(touch)
     
     Scene.Touched(touch)
 end
-

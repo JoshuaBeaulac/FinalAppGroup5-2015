@@ -45,10 +45,14 @@ function MainScene:touched(touch)
     if(moveMainGame.selected == true) then
         Scene.Change("MGame")
     end
-    
     moveStore:touched(touch)
     
     if(moveStore.selected == true) then
         Scene.Change("Store")
+    end
+    tutorial:touched(touch)
+    
+    if(tutorial.selected == true) then
+        Scene.Change("Tut")
     end
 end

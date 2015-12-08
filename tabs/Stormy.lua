@@ -10,14 +10,23 @@ Stormy = class()
 
 function Stormy:init(x)
     -- you can accept and set parameters here
-    
+    local moveBackSelect
 end
 
 function Stormy:draw()
     -- Codea does not automatically call this method
     
+    --sprite("Dropbox:Blue Back Circle Button")
+    moveBackSelect = Button("Dropbox:Blue Back Circle Button", vec2(100, 100))
+    
+    moveBackSelect:draw()
 end
 
 function Stormy:touched(touch)
     -- Codea does not automatically call this method
+    moveBackSelect:touched(touch)
+    
+    if(moveBackSelect.selected == true) then
+        Scene.Change("WSelect")
+    end
 end

@@ -20,7 +20,7 @@ function Peachy:draw()
     --sprite("Dropbox:Yellow Back Circle Button")
     moveBackSelect = Button("Dropbox:Yellow Back Circle Button", vec2(100, 100)) 
     
-   moveBackSelect:draw() 
+    moveBackSelect:draw() 
 end
 
 function Peachy:touched(touch)

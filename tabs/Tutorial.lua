@@ -1,3 +1,11 @@
+-- Tutorial
+-- FinalAppGroup5-2015
+
+-- Created by: Justin Bronson
+-- Created on: Nov 2015
+-- Created for: ICS20
+-- This scene displays how to play the game to the user
+
 Tutorial = class()
 
 function Tutorial:init(x)

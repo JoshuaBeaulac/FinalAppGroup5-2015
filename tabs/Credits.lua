@@ -32,8 +32,12 @@ function Credits:draw()
     text("Vienna", 512, 350)
     text("Naomi", 512, 325)
     
-    --sprite("Dropbox:Teal Back Circle Button")
-    moveBackSettings = Button("Dropbox:Teal Back Circle Button", vec2( 100, 100))
+    text("Program: Lua", 512, 225)
+    
+    text("Mother Teresa's ICS2O class", 512, 125)
+    
+    --sprite("Dropbox:Red Back Circle Button")
+    moveBackSettings = Button("Dropbox:Red Back Circle Button", vec2( 100, 100))
     
     moveBackSettings:draw()
 end

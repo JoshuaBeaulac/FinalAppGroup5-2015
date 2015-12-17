@@ -19,7 +19,7 @@ end
 
 function Settings:draw()
     -- Codea does not automatically call this method
-    background(0, 222, 255, 255)
+    background(0, 157, 255, 255)
     
     font("Copperplate-Bold")
     fontSize(20)
@@ -29,11 +29,11 @@ function Settings:draw()
     text("Reset", 512, 325)
     
     --sprite("Dropbox:Red Info Button")
-    --sprite("Dropbox:Red Back Circle Button")
+    --sprite("Dropbox:Teal Back Circle Button")
     --sprite("Dropbox:Star Gold")
     --sprite("Dropbox:Star Black")
     moveCredits = Button("Dropbox:Red Info Button", vec2(WIDTH/2, 100))
-    moveBackMGame = Button("Dropbox:Red Back Circle Button", vec2(100, 100))
+    moveBackMGame = Button("Dropbox:Teal Back Circle Button", vec2(100, 100))
     resetButton = Button("Dropbox:Star Gold", vec2(WIDTH/2, 250))
     
     moveCredits:draw()

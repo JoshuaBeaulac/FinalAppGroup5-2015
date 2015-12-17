@@ -17,6 +17,7 @@ end
 
 function MainGame:draw()
     -- Codea does not automatically call this method
+    background(149, 0, 255, 255)
     
     --sprite("Dropbox:Red Level Menu Button")
     --sprite("Dropbox:Red Back Circle Button")

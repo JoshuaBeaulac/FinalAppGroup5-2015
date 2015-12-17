@@ -1,29 +1,29 @@
--- Iceberg
+-- Peachy
 -- FinalAppGroup5-2015
 
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This scene is where you can select witch level you want to play on IceBurg
+-- This scene is where you can select witch level you want to play on Peachy
 
-Iceberg = class()
+Peachy = class()
 
-function Iceberg:init(x)
+function Peachy:init(x)
     -- you can accept and set parameters here
     local moveBackSelect
 end
 
-function Iceberg:draw()
+function Peachy:draw()
     -- Codea does not automatically call this method
-    sprite("Dropbox:iceberg", 512, 384, 1024, 768)
+    sprite("Dropbox:peachy", 512, 384, 1024, 768)
     
-    --sprite("Dropbox:Teal Back Circle Button")
-    moveBackSelect = Button("Dropbox:Teal Back Circle Button", vec2(100, 100))
+    --sprite("Dropbox:Yellow Back Circle Button")
+    moveBackSelect = Button("Dropbox:Yellow Back Circle Button", vec2(100, 100)) 
     
-    moveBackSelect:draw()
+    moveBackSelect:draw() 
 end
 
-function Iceberg:touched(touch)
+function Peachy:touched(touch)
     -- Codea does not automatically call this method
     moveBackSelect:touched(touch)
     

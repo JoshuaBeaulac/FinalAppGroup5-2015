@@ -7,6 +7,10 @@
 -- This is the main tab
 
 -- Use this function to perform your initial setup
+
+stars = nil
+highscore = nil
+
 function setup()
     
     supportedOrientations(LANDSCAPE_ANY)
@@ -22,8 +26,13 @@ function setup()
     Scene("MScene", MainScene)
     Scene("MGame", MainGame)
     Scene("Store", Store)
+    Scene("Tut", Tutorial)
     Scene("WSelect", WorldSelect)
     Scene("Ice", Iceberg)
+    Scene("Candy", CandyLand)
+    Scene("Storm", Stormy)
+    Scene("Peach", Peachy)
+    Scene("Star", Stargaze)
     Scene("Setting", Settings)
     Scene("Credits", Credits)
     
@@ -43,4 +52,3 @@ function touched(touch)
     
     Scene.Touched(touch)
 end
-

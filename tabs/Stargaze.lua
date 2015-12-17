@@ -1,29 +1,29 @@
--- Iceberg
+-- Stargaze
 -- FinalAppGroup5-2015
 
 -- Created by: Justin Bronson
 -- Created on: Nov 2015
 -- Created for: ICS20
--- This scene is where you can select witch level you want to play on IceBurg
+-- This scene is where you can select witch level you want to play on Stargaze
 
-Iceberg = class()
+Stargaze = class()
 
-function Iceberg:init(x)
+function Stargaze:init(x)
     -- you can accept and set parameters here
     local moveBackSelect
 end
 
-function Iceberg:draw()
+function Stargaze:draw()
     -- Codea does not automatically call this method
-    sprite("Dropbox:iceberg", 512, 384, 1024, 768)
+    sprite("Dropbox:stargaze", 512, 384, 1024, 768)
     
-    --sprite("Dropbox:Teal Back Circle Button")
-    moveBackSelect = Button("Dropbox:Teal Back Circle Button", vec2(100, 100))
+    --sprite("Dropbox:Purple Back Circle Button")
+    moveBackSelect = Button("Dropbox:Purple Back Circle Button", vec2(100, 100))
     
     moveBackSelect:draw()
 end
 
-function Iceberg:touched(touch)
+function Stargaze:touched(touch)
     -- Codea does not automatically call this method
     moveBackSelect:touched(touch)
     

@@ -7,9 +7,10 @@
 -- This is the main tab
 
 -- Use this function to perform your initial setup
-
 stars = nil
+hints = nil
 highscore = nil
+levelChosen = nil
 
 function setup()
     

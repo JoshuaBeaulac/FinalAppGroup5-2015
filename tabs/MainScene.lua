@@ -14,27 +14,25 @@ local moveStore
 local tutorial
 
 function MainScene:init(x)
-    --sprite("Dropbox:Yellow Move Scene Forward Button")
-    --sprite("Dropbox:Red Move Scene Forward Button")
+    --sprite("Dropbox:PlayButton")
+    --sprite("Dropbox:SHOPPING CART")
     --sprite("Dropbox:Purple Info Button")
-    moveMainGame = Button("Dropbox:Blue Move Scene Forward Button", vec2(362, HEIGHT/2))
-    moveStore = Button("Dropbox:Yellow Move Scene Forward Button", vec2(662, HEIGHT/2))
+    moveMainGame = Button("Dropbox:PlayButton", vec2(WIDTH/2, HEIGHT/2))
+    moveStore = Button("Dropbox:SHOPPING CART", vec2(662, HEIGHT/2))
     tutorial = Button("Dropbox:Purple Info Button", vec2(924, 100))
 end
 
 function MainScene:draw()
     -- Codea does not automatically call this method
     
-    background(0, 183, 255, 255)
+    background(255, 0, 94, 255)
     moveMainGame:draw()
     moveStore:draw()
     tutorial:draw()
     
     font("AmericanTypewriter-Bold")
-    fill(255, 16, 0, 255)
-    text("Main Game", 362, 450)
-    text("Store", 662, 450)
-    text("Tutorial", 924, 168)
+    fill(0, 0, 0, 255)
+    text("Instructions", 924, 168)
 
 end
 

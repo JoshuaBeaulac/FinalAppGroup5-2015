@@ -15,6 +15,7 @@ end
 
 function CandyLand:draw()
     -- Codea does not automatically call this method
+    sprite("Dropbox:CandyLand", 512, 384, 1024, 768)
     
     --sprite("Dropbox:Red Back Circle Button")
     moveBackSelect = Button("Dropbox:Red Back Circle Button", vec2(100, 100))

@@ -7,8 +7,8 @@
 -- This is the main tab
 
 -- Use this function to perform your initial setup
-stars = nil
-hints = nil
+stars = 0
+hints = 0
 highscore = nil
 levelChosen = nil
 
